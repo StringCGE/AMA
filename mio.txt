@@ -1,0 +1,14 @@
+C:\Users\ServidorCGE\Desktop\FundacionAMA-main\src\Backend\src>docker build -t nombre_de_la_imagen -f FundacionAMA.API/Dockerfile .
+
+docker build -t nombre_de_la_imagen -f Carpeta2/Dockerfile .
+
+en carpeta properties launchsettings.json
+"https://0.0.0.0:1000;http://0.0.0.0:2000",
+      "https://localhost:7130;http://localhost:5139"
+	  
+mariadb
+3306
+root psw root
+
+
+ng build --configuration=production
