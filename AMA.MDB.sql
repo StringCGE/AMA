@@ -14,7 +14,7 @@
 
  Date: 19/01/2024 20:06:14
 */
-use ama;
+use ugelo_ama;
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
