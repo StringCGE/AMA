@@ -1,0 +1,16 @@
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\bin\Release\net7.0\FundacionAMA.Domain.Shared.deps.json
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\bin\Release\net7.0\FundacionAMA.Domain.Shared.runtimeconfig.json
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\bin\Release\net7.0\FundacionAMA.Domain.Shared.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\bin\Release\net7.0\FundacionAMA.Domain.Shared.pdb
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\bin\Release\net7.0\FundacionAMA.Domain.Shared.xml
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.csproj.AssemblyReference.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.AssemblyInfoInputs.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.AssemblyInfo.cs
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.csproj.CoreCompileInputs.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\refint\FundacionAMA.Domain.Shared.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.xml
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.pdb
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\FundacionAMA.Domain.Shared.genruntimeconfig.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain.Shared\obj\Release\net7.0\ref\FundacionAMA.Domain.Shared.dll

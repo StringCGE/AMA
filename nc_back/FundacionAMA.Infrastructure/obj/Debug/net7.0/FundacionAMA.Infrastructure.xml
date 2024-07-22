@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FundacionAMA.Infrastructure</name>
+    </assembly>
+    <members>
+        <member name="T:FundacionAMA.Infrastructure.Migrations._202407220746001">
+            <inheritdoc />
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Migrations._202407220746001.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Migrations._202407220746001.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Migrations._202407220746001.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FundacionAMA.Infrastructure.Migrations._202407220749001">
+            <inheritdoc />
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Migrations._202407220749001.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Migrations._202407220749001.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Migrations._202407220749001.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext">
+            <summary>
+            Contexto para la base de datos del proyecto FundacionAMA
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext})">
+            <summary>
+            Constructor del contexto
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="P:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.person">
+            <summary>
+            Clase Person tiene tabla person en la db
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.user">
+            <summary>
+            Clase User tiene tabla user en la db
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.cliente">
+            <summary>
+            Clase Cliente tiene tabla cliente en la db
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.grupo">
+            <summary>
+            Clase Grupo tiene tabla grupo en la db
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.grupoCliente">
+            <summary>
+            Clase GrupoCliente tiene tabla grupoCliente en la db
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.SaveChanges">
+            <summary>
+            Metodo para guardar lo cargado
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.SaveChangesAsync(System.Threading.CancellationToken)">
+            <summary>
+            Metodo asincronico para guardar lo cargado
+            </summary>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.Infrastructure.Persistence.Repository.FundacionAMADbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <summary>
+            Forma de crear el modelo datos adicionales
+            </summary>
+            <param name="modelBuilder"></param>
+        </member>
+    </members>
+</doc>

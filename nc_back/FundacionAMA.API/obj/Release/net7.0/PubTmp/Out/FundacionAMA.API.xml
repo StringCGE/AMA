@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FundacionAMA.API</name>
+    </assembly>
+    <members>
+        <member name="T:FundacionAMA.API.Controllers.Brigada.BrigadaController">
+            <summary>
+            recibe los datos de la brigada
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Brigada.BrigadaController.#ctor(FundacionAMA.Application.Services.BrigadeApp.IBrigadeAppService)">
+            <summary>
+            Constructor de la clase
+            </summary>
+            <param name="brigadeAppService"></param>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Brigada.BrigadaController.Create(FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest)">
+            <summary>
+            creacion de brigada
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Brigada.BrigadaController.Delete(System.Int32)">
+            <summary>
+            eliminar brigada
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Brigada.BrigadaController.GetAll(FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter)">
+            <summary>
+            obtener todas las brigadas paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Brigada.BrigadaController.GetById(System.Int32)">
+            <summary>
+            obtener brigada por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Brigada.BrigadaController.Update(System.Int32,FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest)">
+            <summary>
+            Modificar brigada por Id
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.Catalogo.DonationTypeController">
+            <summary>
+            representacion de donacion
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Catalogo.DonationTypeController.Create(FundacionAMA.Domain.DTO.Catalogo.Request.DonationTypeRequest)">
+            <summary>
+            creacion de tipo de donacion
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Catalogo.DonationTypeController.Delete(System.Int32)">
+            <summary>
+            eliminar tipo de donacion
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Catalogo.DonationTypeController.GetAll(FundacionAMA.Domain.DTO.Catalogo.Filter.DonationTypeFilter)">
+            <summary>
+            obtener todos los tipos de donacion paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Catalogo.DonationTypeController.GetById(System.Int32)">
+            <summary>
+             obtener tipo de donacion por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Catalogo.DonationTypeController.Update(System.Int32,FundacionAMA.Domain.DTO.Catalogo.Request.DonationTypeRequest)">
+            <summary>
+            actualizar tipo de donacion
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.Donation.DonationController">
+            <summary>
+            controlador de donacion
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donation.DonationController.#ctor(FundacionAMA.Application.Services.DonationApp.IDonationServiceApp)">
+            <summary>
+            contructior de donacion
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donation.DonationController.GetById(System.Int32)">
+            <summary>
+            obtener donacion por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donation.DonationController.GetAll(FundacionAMA.Domain.DTO.Donation.Filter.DonationFilter)">
+            <summary>
+            Obtener todas las donaciones paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donation.DonationController.Create(FundacionAMA.Domain.DTO.Donation.Request.DonationRequest)">
+            <summary>
+            Creacion de donaciones
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donation.DonationController.Update(System.Int32,FundacionAMA.Domain.DTO.Donation.Request.DonationRequest)">
+            <summary>
+            actualizar donacion
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donation.DonationController.Delete(System.Int32)">
+            <summary>
+            eliminar donacion
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donor.DonorController.GetById(System.Int32)">
+            <summary>
+            obtener donante por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donor.DonorController.GetAll(FundacionAMA.Domain.DTO.Donor.Filter.DonorFilter)">
+            <summary>
+            obtener todos los donantes paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donor.DonorController.Create(FundacionAMA.Domain.DTO.Donor.Request.DonorResquest)">
+            <summary>
+            creacion de donantes
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donor.DonorController.Update(System.Int32,FundacionAMA.Domain.DTO.Donor.Request.DonorResquest)">
+            <summary>
+            actualizar donante
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Donor.DonorController.Delete(System.Int32)">
+            <summary>
+            eliminar donante
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.Person.PersonController">
+            <summary>
+            Reursos para la gestion de personas
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.GetById(System.Int32)">
+            <summary>
+            obtener persona por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.GetAll(FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter)">
+            <summary>
+            Obtener todas las personas paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.Create(FundacionAMA.Domain.DTO.Person.Request.PersonRequest)">
+            <summary>
+            creacion de personas
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.Update(System.Int32,FundacionAMA.Domain.DTO.Person.Request.PersonRequest)">
+            <summary>
+             actualizar persona
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.Delete(System.Int32)">
+            <summary>
+            eliminar persona
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.Volunteer.VolunteerController">
+            <summary>
+            controlador de donacion
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Volunteer.VolunteerController.#ctor(FundacionAMA.Application.Services.VolunteeerApp.IVolunteerServiceApp)">
+            <summary>
+            contructior de donacion
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Volunteer.VolunteerController.GetById(System.Int32)">
+            <summary>
+            obtener donacion por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Volunteer.VolunteerController.GetAll(FundacionAMA.Domain.DTO.Volunteer.Filter.VolunteerFilter)">
+            <summary>
+            Obtener todas las donaciones paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Volunteer.VolunteerController.Create(FundacionAMA.Domain.DTO.Volunteer.Request.VolunteerRequest)">
+            <summary>
+            Creacion de donaciones
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Volunteer.VolunteerController.Update(System.Int32,FundacionAMA.Domain.DTO.Volunteer.Request.VolunteerRequest)">
+            <summary>
+            actualizar donacion
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Volunteer.VolunteerController.Delete(System.Int32)">
+            <summary>
+            eliminar donacion
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

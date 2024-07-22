@@ -1,0 +1,54 @@
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.deps.json
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.pdb
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.xml
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.pdb
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.xml
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.AssemblyReference.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.AssemblyInfoInputs.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.AssemblyInfo.cs
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.CopyComplete
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\refint\FundacionAMA.Domain.dll
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.xml
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.pdb
+D:\GitHub\AMAFundacion\src\Backend\src\FundacionAMA.Domain\obj\Debug\net7.0\ref\FundacionAMA.Domain.dll
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.AssemblyReference.cache
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.AssemblyInfoInputs.cache
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.AssemblyInfo.cs
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.dll
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\refint\FundacionAMA.Domain.dll
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.xml
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.pdb
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.deps.json
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.dll
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.pdb
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.xml
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.dll
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.pdb
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.xml
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.CopyComplete
+D:\GitHub\Nueva carpeta\src\FundacionAMA.Domain\obj\Debug\net7.0\ref\FundacionAMA.Domain.dll
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.deps.json
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.dll
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.pdb
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.xml
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.dll
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.pdb
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\bin\Debug\net7.0\FundacionAMA.Domain.Shared.xml
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.AssemblyReference.cache
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.AssemblyInfoInputs.cache
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.AssemblyInfo.cs
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.CoreCompileInputs.cache
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.csproj.CopyComplete
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.dll
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\refint\FundacionAMA.Domain.dll
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.xml
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\FundacionAMA.Domain.pdb
+D:\GitHub\netCore\ProbarGen\nc\nc_back\FundacionAMA.Domain\obj\Debug\net7.0\ref\FundacionAMA.Domain.dll

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FundacionAMA.Domain.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:FundacionAMA.Domain.Shared.Entities.Dtos.RequestPaginated">
+            <summary>
+            Request de Paginacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Shared.Entities.Dtos.RequestPaginated.Offset">
+            <summary>
+            Pagina a obtener
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Shared.Entities.Dtos.RequestPaginated.Take">
+            <summary>
+            Cantidad de elementos a obtener
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Shared.Entities.Dtos.RequestPaginated.Sort">
+            <summary>
+            Ordenamiento
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.Domain.Shared.Extensions.Configurations.ConfigurationTools.RegisterAllImplementations(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Reflection.Assembly)">
+            <summary>
+            Metodo que registra todas las implementaciones de las interfaces en el contenedor de dependencias
+            </summary>
+            <param name="services"></param>
+            <param name="assemblyBase"></param>
+        </member>
+        <member name="M:FundacionAMA.Domain.Shared.Extensions.Configurations.ConfigurationTools.RegisterAllImplementationsByAssembly(Microsoft.Extensions.DependencyInjection.IServiceCollection,System.Collections.Generic.List{System.Reflection.Assembly})">
+            <summary>
+            Metodo que registra todas las implementaciones de las interfaces en el contenedor de dependencias
+            </summary>
+            <param name="services"></param>
+            <param name="assemblies"></param>
+        </member>
+    </members>
+</doc>

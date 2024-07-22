@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FundacionAMA.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:FundacionAMA.Domain.DTO.Cliente.Dto.ClienteDto">
+            <summary>
+            Dto de Cliente
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.Dto.ClienteDto.Id">
+            <summary>
+            Id de Cliente
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Cliente.FilterDto.ClienteFilter">
+            <summary>
+            Filtro de Cliente
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.FilterDto.ClienteFilter.Codigo">
+            <summary>
+            Codigo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.FilterDto.ClienteFilter.PrimeraCompra">
+            <summary>
+            PrimeraCompra
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest">
+            <summary>
+            Filtro de Cliente
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest.Apellido">
+            <summary>
+            Apellido
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest.Edad">
+            <summary>
+            Edad
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest.Codigo">
+            <summary>
+            Codigo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest.PrimeraCompra">
+            <summary>
+            PrimeraCompra
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.GrupoCliente.Dto.GrupoClienteDto">
+            <summary>
+            Dto de GrupoCliente
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.GrupoCliente.Dto.GrupoClienteDto.Id">
+            <summary>
+            Id de GrupoCliente
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.GrupoCliente.FilterDto.GrupoClienteFilter">
+            <summary>
+            Filtro de GrupoCliente
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.GrupoCliente.Request.GrupoClienteRequest">
+            <summary>
+            Filtro de GrupoCliente
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.GrupoCliente.Request.GrupoClienteRequest.Grupo_Id">
+            <summary>
+            Grupo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.GrupoCliente.Request.GrupoClienteRequest.Cliente_Id">
+            <summary>
+            Cliente
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Grupo.Dto.GrupoDto">
+            <summary>
+            Dto de Grupo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Grupo.Dto.GrupoDto.Id">
+            <summary>
+            Id de Grupo
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Grupo.FilterDto.GrupoFilter">
+            <summary>
+            Filtro de Grupo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Grupo.FilterDto.GrupoFilter.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Grupo.Request.GrupoRequest">
+            <summary>
+            Filtro de Grupo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Grupo.Request.GrupoRequest.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Person.Dto.PersonDto">
+            <summary>
+            Dto de Person
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Dto.PersonDto.Id">
+            <summary>
+            Id de Person
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter">
+            <summary>
+            Filtro de Person
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Apellido">
+            <summary>
+            Apellido
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Edad">
+            <summary>
+            Edad
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Person.Request.PersonRequest">
+            <summary>
+            Filtro de Person
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.Apellido">
+            <summary>
+            Apellido
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.Edad">
+            <summary>
+            Edad
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.User.Dto.UserDto">
+            <summary>
+            Dto de User
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.Dto.UserDto.Id">
+            <summary>
+            Id de User
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.User.FilterDto.UserFilter">
+            <summary>
+            Filtro de User
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.FilterDto.UserFilter.Usuario">
+            <summary>
+            Usuario
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.FilterDto.UserFilter.Clave">
+            <summary>
+            Clave
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.FilterDto.UserFilter.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.User.Request.UserRequest">
+            <summary>
+            Filtro de User
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.Request.UserRequest.Usuario">
+            <summary>
+            Usuario
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.Request.UserRequest.Clave">
+            <summary>
+            Clave
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.User.Request.UserRequest.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Cliente.Codigo">
+            <summary>
+            Codigo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Cliente.PrimeraCompra">
+            <summary>
+            PrimeraCompra
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Cliente.Grupos">
+            <summary>
+            Grupos
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Grupo.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Grupo.Clientes">
+            <summary>
+            Clientes
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.GrupoCliente.Grupo_Id">
+            <summary>
+            Grupo_Id
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.GrupoCliente.Grupo">
+            <summary>
+            Grupo
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.GrupoCliente.Cliente_Id">
+            <summary>
+            Cliente_Id
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.GrupoCliente.Cliente">
+            <summary>
+            Cliente
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Person.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Person.Apellido">
+            <summary>
+            Apellido
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Person.Edad">
+            <summary>
+            Edad
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.User.Usuario">
+            <summary>
+            Usuario
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.User.Clave">
+            <summary>
+            Clave
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.User.Persona_Id">
+            <summary>
+            Persona_Id
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.User.Persona">
+            <summary>
+            Persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.User.Nombre">
+            <summary>
+            Nombre
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Interfaces.Services.IClienteService">
+            <summary>
+            servicio de Cliente
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Interfaces.Services.IGrupoClienteService">
+            <summary>
+            servicio de GrupoCliente
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Interfaces.Services.IGrupoService">
+            <summary>
+            servicio de Grupo
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Interfaces.Services.IPersonService">
+            <summary>
+            servicio de Person
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Interfaces.Services.IUserService">
+            <summary>
+            servicio de User
+            </summary>
+        </member>
+    </members>
+</doc>

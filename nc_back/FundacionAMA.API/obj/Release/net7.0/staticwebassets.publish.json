@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "MZgTCcDvRjSVpaH50jD6cvG1ukc2qfqpgm8/gsQEwBs=",
+  "Source": "FundacionAMA.API",
+  "BasePath": "_content/FundacionAMA.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FundacionAMA.API\\wwwroot",
+      "Source": "FundacionAMA.API",
+      "ContentRoot": "D:\\GitHub\\AMAFundacion\\src\\Backend\\src\\FundacionAMA.API\\wwwroot\\",
+      "BasePath": "_content/FundacionAMA.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\GitHub\\AMAFundacion\\src\\Backend\\src\\FundacionAMA.API\\wwwroot\\index.html",
+      "SourceId": "FundacionAMA.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\AMAFundacion\\src\\Backend\\src\\FundacionAMA.API\\wwwroot\\",
+      "BasePath": "_content/FundacionAMA.API",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

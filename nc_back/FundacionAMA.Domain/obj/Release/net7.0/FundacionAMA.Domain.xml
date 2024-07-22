@@ -1,0 +1,373 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FundacionAMA.Domain</name>
+    </assembly>
+    <members>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Dto.BrigadeDto.Id">
+            <summary>
+            identificador de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Dto.BrigadeDto.IdentificationPerson">
+            <summary>
+            identificador de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Dto.BrigadeDto.NameCompletedPerson">
+            <summary>
+            nombre de la persona
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter">
+            <summary>
+             filtro de brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter.CompanyId">
+            <summary>
+            company id
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter.PersonId">
+            <summary>
+            person id
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter.Name">
+            <summary>
+            nombre de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter.Description">
+            <summary>
+            descripcion de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter.Start">
+            <summary>
+            fecha de inicio  de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.FilterDto.BrigadeFilter.End">
+            <summary>
+            fecha  fin de la brigada
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest">
+            <summary>
+            recibe los datos de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest.CompanyId">
+            <summary>
+            id de compañia
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest.PersonId">
+            <summary>
+            ide de persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest.Name">
+            <summary>
+            Nombre de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest.Description">
+            <summary>
+            Descripcion de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest.Start">
+            <summary>
+            Fecha de inicio de la brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Brigade.Request.BrigadeRequest.End">
+            <summary>
+            Fecha de fin de la brigada
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Donation.Dto.DonationDto">
+            <summary>
+            Dto de Donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Filter.DonationFilter.Name">
+            <summary>
+            Nombre de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Filter.DonationFilter.DonationTypeId">
+            <summary>
+            tipo de donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Filter.DonationFilter.PersonId">
+            <summary>
+            persona que dona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Filter.DonationFilter.BrigadeId">
+            <summary>
+            brigada que recibe la donacion
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest">
+            <summary>
+            Request de Donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.Name">
+            <summary>
+            nombre de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.DonationTypeId">
+            <summary>
+            tipo de donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.Price">
+            <summary>
+            precio de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.Total">
+            <summary>
+            total de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.PersonId">
+            <summary>
+            persona donante
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.BrigadeId">
+            <summary>
+            brigada a la que pertenece
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.Status">
+            <summary>
+            status de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.Amount">
+            <summary>
+            Catnitdad de donaciones
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.AssignedAt">
+            <summary>
+            Fecha de donacion
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.Domain.DTO.Donation.Request.DonationRequest.GetTotal">
+            <summary>
+            Obtener total del precio por la cantidad de donaciones
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter">
+            <summary>
+            Filtro de personas
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Donor">
+            <summary>
+            donante verdadero o falso
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Email">
+            <summary>
+            Correo de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Identification">
+            <summary>
+            identificacion de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.LastName">
+            <summary>
+            Apellido de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Name">
+            <summary>
+            nombre de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Phone">
+            <summary>
+            Telefono de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter.Volunteer">
+            <summary>
+            voluntario verdadero o falso
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Person.PersonDto">
+            <summary>
+            Dto de persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.PersonDto.Id">
+            <summary>
+            Id de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.Email">
+            <summary>
+            Correo de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.FirstName">
+            <summary>
+            perimer nombre de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.Identification">
+            <summary>
+            identificacion de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.IdentificationTypeId">
+            <summary>
+            Id del tipo de identificacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.LastName">
+            <summary>
+            Apellido de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.NameCompleted">
+            <summary>
+            nombre de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.Phone">
+            <summary>
+            telefono de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.SecondLastName">
+            <summary>
+            segundo apellido de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.SecondName">
+            <summary>
+            segundo nombre de la persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequestHeader.Status">
+            <summary>
+            status de la persona
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Person.Request.PersonRequest">
+            <summary>
+            Request de persona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.Donor">
+            <summary>
+            donante verdadero o falso
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.Volunteer">
+            <summary>
+            voluntario verdadero o falso
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.Beneficiary">
+            <summary>
+            request de beneficiario
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.DTO.Person.Request.PersonRequest.volunaterRequest">
+            <summary>
+            request de voluntario
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.DTO.Volunteer.Request.VolunteerRequest">
+            <summary>
+            request de voluntarios
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Entities.Donation">
+            <summary>
+            Modelo de la base de datos para la tabla Donation
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Name">
+            <summary>
+            Nombre de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.DonationTypeId">
+            <summary>
+            tipo de donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Price">
+            <summary>
+            precio de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Total">
+            <summary>
+            total de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.PersonId">
+            <summary>
+            persona que dona
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.BrigadeId">
+            <summary>
+            brigada que recibe la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Amount">
+            <summary>
+            cantidad de donaciones
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Status">
+            <summary>
+            status de la donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Brigade">
+            <summary>
+            relacion con la tabla brigada
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.DonationType">
+            <summary>
+            relacion con la tabla tipo de donacion
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.Person">
+            <summary>
+            relacion con el donante
+            </summary>
+        </member>
+        <member name="P:FundacionAMA.Domain.Entities.Donation.AssignedAt">
+            <summary>
+            fecha de donación
+            </summary>
+        </member>
+        <member name="T:FundacionAMA.Domain.Interfaces.Services.IBeneficiaryervice">
+            <summary>
+            servicio de beneficiario
+            </summary>
+        </member>
+    </members>
+</doc>

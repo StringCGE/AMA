@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FundacionAMA.API</name>
+    </assembly>
+    <members>
+        <member name="T:FundacionAMA.API.Controllers.Cliente.ClienteController">
+            <summary>
+            Reursos para la gestion de Cliente
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Cliente.ClienteController.GetById(System.Int32)">
+            <summary>
+            obtener Cliente por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Cliente.ClienteController.GetAll(FundacionAMA.Domain.DTO.Cliente.FilterDto.ClienteFilter)">
+            <summary>
+            Obtener todas las Cliente paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Cliente.ClienteController.Create(FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest)">
+            <summary>
+            creacion de Cliente
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Cliente.ClienteController.Update(System.Int32,FundacionAMA.Domain.DTO.Cliente.Request.ClienteRequest)">
+            <summary>
+             actualizar Cliente
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Cliente.ClienteController.Delete(System.Int32)">
+            <summary>
+            eliminar Cliente
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.GrupoCliente.GrupoClienteController">
+            <summary>
+            Reursos para la gestion de GrupoCliente
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.GrupoCliente.GrupoClienteController.GetById(System.Int32)">
+            <summary>
+            obtener GrupoCliente por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.GrupoCliente.GrupoClienteController.GetAll(FundacionAMA.Domain.DTO.GrupoCliente.FilterDto.GrupoClienteFilter)">
+            <summary>
+            Obtener todas las GrupoCliente paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.GrupoCliente.GrupoClienteController.Create(FundacionAMA.Domain.DTO.GrupoCliente.Request.GrupoClienteRequest)">
+            <summary>
+            creacion de GrupoCliente
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.GrupoCliente.GrupoClienteController.Update(System.Int32,FundacionAMA.Domain.DTO.GrupoCliente.Request.GrupoClienteRequest)">
+            <summary>
+             actualizar GrupoCliente
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.GrupoCliente.GrupoClienteController.Delete(System.Int32)">
+            <summary>
+            eliminar GrupoCliente
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.Grupo.GrupoController">
+            <summary>
+            Reursos para la gestion de Grupo
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Grupo.GrupoController.GetById(System.Int32)">
+            <summary>
+            obtener Grupo por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Grupo.GrupoController.GetAll(FundacionAMA.Domain.DTO.Grupo.FilterDto.GrupoFilter)">
+            <summary>
+            Obtener todas las Grupo paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Grupo.GrupoController.Create(FundacionAMA.Domain.DTO.Grupo.Request.GrupoRequest)">
+            <summary>
+            creacion de Grupo
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Grupo.GrupoController.Update(System.Int32,FundacionAMA.Domain.DTO.Grupo.Request.GrupoRequest)">
+            <summary>
+             actualizar Grupo
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Grupo.GrupoController.Delete(System.Int32)">
+            <summary>
+            eliminar Grupo
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.Person.PersonController">
+            <summary>
+            Reursos para la gestion de Person
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.GetById(System.Int32)">
+            <summary>
+            obtener Person por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.GetAll(FundacionAMA.Domain.DTO.Person.FilterDto.PersonFilter)">
+            <summary>
+            Obtener todas las Person paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.Create(FundacionAMA.Domain.DTO.Person.Request.PersonRequest)">
+            <summary>
+            creacion de Person
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.Update(System.Int32,FundacionAMA.Domain.DTO.Person.Request.PersonRequest)">
+            <summary>
+             actualizar Person
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.Person.PersonController.Delete(System.Int32)">
+            <summary>
+            eliminar Person
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="T:FundacionAMA.API.Controllers.User.UserController">
+            <summary>
+            Reursos para la gestion de User
+            </summary>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.User.UserController.GetById(System.Int32)">
+            <summary>
+            obtener User por id
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.User.UserController.GetAll(FundacionAMA.Domain.DTO.User.FilterDto.UserFilter)">
+            <summary>
+            Obtener todas las User paginado
+            </summary>
+            <param name="filter"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.User.UserController.Create(FundacionAMA.Domain.DTO.User.Request.UserRequest)">
+            <summary>
+            creacion de User
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.User.UserController.Update(System.Int32,FundacionAMA.Domain.DTO.User.Request.UserRequest)">
+            <summary>
+             actualizar User
+            </summary>
+            <param name="id"></param>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:FundacionAMA.API.Controllers.User.UserController.Delete(System.Int32)">
+            <summary>
+            eliminar User
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

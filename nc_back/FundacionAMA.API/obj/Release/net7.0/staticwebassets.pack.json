@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitHub\\AMAFundacion\\src\\Backend\\src\\FundacionAMA.API\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.FundacionAMA.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.build.FundacionAMA.API.props",
+      "PackagePath": "build\\FundacionAMA.API.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FundacionAMA.API.props",
+      "PackagePath": "buildMultiTargeting\\FundacionAMA.API.props"
+    },
+    {
+      "Id": "obj\\Release\\net7.0\\staticwebassets\\msbuild.buildTransitive.FundacionAMA.API.props",
+      "PackagePath": "buildTransitive\\FundacionAMA.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

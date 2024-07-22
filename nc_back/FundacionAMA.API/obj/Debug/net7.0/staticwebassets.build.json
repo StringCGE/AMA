@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "qdaD/oM38rhvY4Hnw4qjctJHSIbwedCinyHtv5LENg4=",
+  "Source": "FundacionAMA.API",
+  "BasePath": "_content/FundacionAMA.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FundacionAMA.API\\wwwroot",
+      "Source": "FundacionAMA.API",
+      "ContentRoot": "D:\\GitHub\\netCore\\ProbarGen\\nc\\nc_back\\FundacionAMA.API\\wwwroot\\",
+      "BasePath": "_content/FundacionAMA.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\GitHub\\netCore\\ProbarGen\\nc\\nc_back\\FundacionAMA.API\\wwwroot\\index.html",
+      "SourceId": "FundacionAMA.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitHub\\netCore\\ProbarGen\\nc\\nc_back\\FundacionAMA.API\\wwwroot\\",
+      "BasePath": "_content/FundacionAMA.API",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
